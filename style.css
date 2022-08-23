@@ -22,7 +22,7 @@ body {
 }
 
 #small-text {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 80px;
     color: black;
     font-weight: bold;
@@ -73,7 +73,7 @@ p {
 
 .quantity {
     width: 135px;
-    height: 75px;
+    height: 125px;
     margin-top: 20px;
     margin-left: 10px;
     background: #FAFAFA;
@@ -100,9 +100,8 @@ input {
 .line {
     position: absolute;
     width: 765px;
-    height: 0px;
-    left: 338px;
-    border: 1px solid #bcb7b7;
+    margin-left: 338px;
+
 }
 
 .help-btn {
@@ -114,6 +113,8 @@ input {
     background: #FF5959;
     border-radius: 5px;
     border: none;
+    color: yellow;
+    font-size: large;
 }
 
 .helping-plan {}
@@ -163,4 +164,11 @@ h4 {
 
 .category-text {
     text-align: left;
+}
+
+.image {
+    width: 58px;
+    height: 53px;
+    margin-left: 10px;
+    margin-top: 30px;
 }
