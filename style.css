@@ -2,7 +2,6 @@ body {
     margin: 0 auto;
 }
 
-
 .header-area {
     max-resolution: 0 auto;
     background-image: url(/images/header_image.jpg);
@@ -33,13 +32,9 @@ body {
     /* margin-left: 650px; */
     padding: 16px 12px;
     color: white;
-
-
-
 }
 
 #btn {
-    /* color: rgb(255, 255, 255); */
     background-color: #FF5959;
     margin-left: 625px;
     margin-bottom: 50px;
@@ -68,7 +63,6 @@ p {
     line-height: 54px;
     text-align: center;
     color: #121212;
-
 }
 
 .quantity {
@@ -101,7 +95,6 @@ input {
     position: absolute;
     width: 765px;
     margin-left: 338px;
-
 }
 
 .help-btn {
@@ -116,8 +109,6 @@ input {
     color: yellow;
     font-size: large;
 }
-
-.helping-plan {}
 
 .catagory {
     display: flex;
@@ -163,7 +154,7 @@ h4 {
 }
 
 .category-text {
-    text-align: left;
+    text-align: justify;
 }
 
 .image {
@@ -171,4 +162,63 @@ h4 {
     height: 53px;
     margin-left: 10px;
     margin-top: 30px;
+}
+
+.update {
+    margin-top: 80px;
+}
+
+.upadte-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.news {
+    display: flex;
+    width: 809px;
+    height: 200px;
+    margin-left: 316px;
+    margin-top: 40px;
+    background: #FFF4D6;
+}
+
+.email {
+    width: 275px;
+    height: 48px;
+    margin-left: 160px;
+    margin-top: 75px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+.subscribe {
+    width: 157px;
+    height: 50px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: yellow;
+    margin-top: 75px;
+}
+
+.footer {
+    height: 170px;
+    background: #000000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#humble {
+    padding-top: 60px;
+    color: #FF5959;
+    font-family: 'Lobster';
+
+}
+
+h5 {
+    color: #D9DBE1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
