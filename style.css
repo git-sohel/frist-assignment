@@ -41,7 +41,7 @@ body {
 #btn {
     /* color: rgb(255, 255, 255); */
     background-color: #FF5959;
-    margin-left: 600px;
+    margin-left: 625px;
     margin-bottom: 50px;
     border: none;
     border-radius: 5px;
@@ -58,7 +58,7 @@ p {
     font-style: normal;
 }
 
-.help-count-area {
+.help-area {
     font-family: 'Roboto', sans-serif;
     margin-left: 70px;
     margin-top: 100px;
@@ -83,10 +83,84 @@ p {
 }
 
 #frist {
-    margin-left: 250px;
+    margin-left: 350px;
 }
 
 #second {
     background: #FFEEEE;
     border: 2px solid #FF5959;
+}
+
+input {
+    border: none;
+    margin-left: 640px;
+    margin-top: 20px;
+}
+
+.line {
+    position: absolute;
+    width: 765px;
+    height: 0px;
+    left: 338px;
+    border: 1px solid #bcb7b7;
+}
+
+.help-btn {
+    padding: 16px 12px;
+    width: 160px;
+    height: 56px;
+    margin-left: 625px;
+    margin-top: 30px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+}
+
+.helping-plan {}
+
+.catagory {
+    display: flex;
+    margin-top: 40px;
+}
+
+.frist-category {
+    display: block;
+    width: 360px;
+    height: 352px;
+    margin-left: 80px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.second-category {
+    display: block;
+    width: 360px;
+    height: 352px;
+    margin-left: 20px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.third-category {
+    display: block;
+    width: 360px;
+    height: 352px;
+    margin-left: 20px;
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    font-size: large;
+    padding: 20px;
+}
+
+.category-text {
+    text-align: left;
 }
