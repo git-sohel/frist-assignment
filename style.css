@@ -3,7 +3,7 @@ body {
 }
 
 .header-area {
-    max-resolution: 0 auto;
+    /* max-resolution: 0 auto; */
     background-image: url(/images/header_image.jpg);
     border: .5px solid rgb(255, 255, 255);
     height: 669px;
